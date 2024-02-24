@@ -1,26 +1,26 @@
 # Responsive Web Design Certification
 
-The following repository contains a series of small projects developed to help understand the basic concepts of HTML, CSS, Flexbox, CSS Animations, HTML Forms amongst other topics.
+This repository contains projects aimed at understanding HTML, CSS, Flexbox, CSS Animations, HTML Forms, and more.
 
 ## Table of Contents
-- [Design a Cafe Menu](#design-a-cafe-menu)
-- [Style some Colored Markers](#style-some-colored-markers)
-- [Design and Style a Registration Form](#design-and-style-a-registration-form)
+- [Cafe Menu Design](#design-a-cafe-menu)
+- [Colored Marker Styling](#style-some-colored-markers)
+- [Registration Form Design](#design-and-style-a-registration-form)
 
 ---
 
-## Design a Cafe Menu :coffee:
+## :coffee: Cafe Menu Design
 
-Get familiarized with the basic HTML tags and basic CSS styling.
-
----
-
-## Style some Colored Markers :art:
-
-Used div's and CSS to style the containers into markers using gradients, borders, box-shadows.
+Project focused on creating a visually appealing cafe menu.
 
 ---
 
-## Design and Style a Registration Form :page_with_curl:
+## :art: Colored Marker Styling
 
-Created an HTML registration form and styled it using CSS.
+Project demonstrating the styling of colored markers using CSS.
+
+---
+
+## :page_with_curl: Registration Form Design
+
+Project aimed at designing and styling a registration form for web applications.
