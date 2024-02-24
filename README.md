@@ -7,14 +7,20 @@ The following repository contains a series of small projects developed to help u
 - [Style some Colored Markers](#style-some-colored-markers)
 - [Design and Style a Registration Form](#design-and-style-a-registration-form)
 
-## Design a Cafe Menu
+---
 
-Description of the project "Design a Cafe Menu".
+## Design a Cafe Menu :coffee:
 
-## Style some Colored Markers
+Get familiarized with the basic HTML tags and basic CSS styling.
 
-Description of the project "Style some Colored Markers".
+---
 
-## Design and Style a Registration Form
+## Style some Colored Markers :art:
 
-Description of the project "Design and Style a Registration Form".
+Used div's and CSS to style the containers into markers using gradients, borders, box-shadows.
+
+---
+
+## Design and Style a Registration Form :page_with_curl:
+
+Created an HTML registration form and styled it using CSS.
