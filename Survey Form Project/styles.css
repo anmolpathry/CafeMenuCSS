@@ -1,0 +1,68 @@
+html, body {
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+
+.background {
+    width:100%;
+    min-height: 100vh;
+    background-image: url("https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/raw/SoFi_Shareable-Asset-_Discount-Shopping-Survey_Header.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+
+.content-container {
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 68, 143, 0.5); 
+    padding-top: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.content {
+    text-align: center; 
+}
+
+
+h1 {
+    color: rgba(255, 255, 255,0.85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    margin-top: 8%;
+}
+
+p {
+    font-family: sans-serif;
+    color: rgba(255, 255, 255,0.8);
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+.form-container {
+    background-color: rgba(43, 0, 72, 0.9);
+    width: 80%;
+    margin-top: 10px;
+    overflow-y: auto; 
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+} 
+
+label {
+    color:white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
