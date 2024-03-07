@@ -4,20 +4,29 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles.css" />
-        <title>User Experience Review</title>
+        <title>User Experience Form</title>
     </head>
 
     <body>
         <div class="background">
             <div class="content-container">
                 <div class="content">
-                    <h1>User Experience Survey Form</h1>
-                    <p>Please let us know about your shopping experience with us</p>
+                    <h1 id="title">User Experience Survey Form</h1>
+                    <p id="description">Please let us know about your shopping experience with us</p>
                 </div>
                 <div class="form-container">
-                   <form>
-                    <div>
-                        <label>Name</label>
+                   <form id="survey-form">
+                    <div class="form-element">
+                        <label id="name-label" for="name">Name</label>
+                        <input required id="name" type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="form-element">
+                        <label id="email-label" for="email">Email</label>
+                        <input required id="email" type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-element">
+                        <label id="number-label" for="number">Age</label>
+                        <input id="number" type="number" min="15" max="99" placeholder="Enter your age">
                     </div>
                    </form>
                 </div>
