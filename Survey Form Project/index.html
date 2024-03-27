@@ -18,15 +18,44 @@
                    <form id="survey-form">
                     <div class="form-element">
                         <label id="name-label" for="name">Name</label>
-                        <input required id="name" type="text" placeholder="Enter your name">
+                        <input required id="name" type="text" placeholder="Enter your name" class="styled-input">
                     </div>
                     <div class="form-element">
                         <label id="email-label" for="email">Email</label>
-                        <input required id="email" type="email" placeholder="Enter your email">
+                        <input required id="email" type="email" placeholder="Enter your email" class="styled-input">
                     </div>
                     <div class="form-element">
                         <label id="number-label" for="number">Age</label>
-                        <input id="number" type="number" min="15" max="99" placeholder="Enter your age">
+                        <input id="number" type="number" min="15" max="99" placeholder="Enter your age" class="styled-input">
+                    </div>
+                    <div class="form-element">
+                        <label id="dropdown-label" for="dropdown">Where did you shop?</label>
+                        <select id="dropdown"  class="styled-input">
+                            <option value="" disabled selected>Please select your shop</option>
+                            <option value="zara">Zara</option>
+                            <option value="bershka">Bershka</option>
+                            <option value="stradivarius">Stradivarius</option>
+                        </select>
+                    </div>
+                    <div class="form-element">
+                        <label>Would you shop again?</label>
+                        <label><input type="radio" name="shop" value="'yes" checked> Yes </label>
+                        <label><input type="radio" name="shop" value="'no"> No </label>
+                        <label><input type="radio" name="shop" value="'maybe"> Maybe </label>
+                    </div>
+                    <div class="form-element">
+                        <label>What areas do you think we should improve?</label>
+                        <label for="support"><input type="checkbox" name="support" value="support"> Customer Support </label>
+                        <label for="attention"><input type="checkbox" name="attention" value="attention"> Attention in Store </label>
+                        <label for="payment"><input type="checkbox" name="payment" value="payment"> Payments in App </label>
+                        <label for="delivery"><input type="checkbox" name="delivery" value="delivery"> Product Deliveries </label>
+                    </div>
+                    <div class="form-element">
+                        <label>Add any additional comments or suggestions</label>
+                        <textarea id="comments" placeholder="Enter your comment here..."></textarea>
+                    </div>
+                    <div class="form-element">
+                        <button id="submit" type="submit">Submit</button>
                     </div>
                    </form>
                 </div>
